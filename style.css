@@ -1,1 +1,7 @@
+.bg-color{
+    background: linear-gradient(to right, #42CCE8 0%, rgba(33,180,226,1) 11%, rgba(113,206,239,1) 38%, rgba(45, 210, 210) 85%, #39f8d9 100%);
+}
 
+.filter{
+    filter: brightness(0.4);
+}

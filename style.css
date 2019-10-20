@@ -1,7 +1,111 @@
+/* First Part */
 .bg-color{
     background: linear-gradient(to right, #42CCE8 0%, rgba(33,180,226,1) 11%, rgba(113,206,239,1) 38%, rgba(45, 210, 210) 85%, #39f8d9 100%);
 }
 
 .filter{
     filter: brightness(0.4);
+}
+
+
+/* Second Part */
+
+.temp {
+    border: 1px dotted black;
+}
+
+.dark-background {
+    background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=fafafaff&noise=626262&density=82&opacity=20");
+}
+
+.light-background {
+    background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=626262&density=82&opacity=4");
+}
+
+.article {
+    border-radius: 25px;
+    box-shadow: 0px, 0px, 25px, grey;
+    padding: 50px;
+    margin: 50px;
+}
+
+h3 {
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+strong {
+    font-size: 16pt;
+    font-weight: 600;
+    color: black;
+}
+
+.light {
+    color: gray;
+}
+
+.spacer {
+    height: 30px;
+}
+
+
+
+form {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(190, 190, 190);
+    padding: 3px;
+    font-size: 8pt;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right,
+    rgba(67,205,231,1), 
+    rgba(60,247,216,1));
+    color: white;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+form input {
+    background: transparent;
+    border: none;
+    color: rgb(190, 190, 190);
+}
+
+
+.center {
+    align-items: center;
+}
+
+
+ul {
+    text-align: center;;
+    padding-left: 10px;
+    color: black;
+    padding-bottom: 5px;
+}
+li {
+    list-style-type: none;
+    padding: 3px 0px;
+}
+li img {
+    padding-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.partner
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
